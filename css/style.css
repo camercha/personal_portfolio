@@ -84,9 +84,7 @@ background-size: cover;
 }
 
 
-#projects{
-  
-}
+
 
 .project-tile{
     display: grid;
@@ -103,3 +101,22 @@ img{
     width: 500px;
 }
 
+.project-tile p{
+    margin: 0px;
+    background-color: red;
+    padding-top: 10px;
+    padding-bottom: 10px ;
+}
+
+
+
+
+
+
+
+@media(min-width:2000px){
+.project-tile{
+   width: 75%;
+}
+
+}
