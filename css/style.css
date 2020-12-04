@@ -122,14 +122,15 @@ img{
     height: 362px;
 }
 
- p .code{
+  span{
    visibility: hidden;
    opacity: 0;
    transition: visibility 0s, opacity 0.5s linear;
+   color: brown;
     
 }
 
-  p .code:hover{
+  .cat :hover > span{
     visibility: visible;
     opacity: 1;
 }
