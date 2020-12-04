@@ -90,9 +90,15 @@ background-size: cover;
     font-size: 35px ;
     font-family: 'Raleway', sans-serif;
     color: white;
+    margin-bottom: 0px;
     
    
    
+}
+
+hr{
+    width: 545px;
+    margin-top: 0;
 }
 
 
