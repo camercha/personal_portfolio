@@ -91,6 +91,7 @@ background-size: cover;
     font-family: 'Raleway', sans-serif;
     color: white;
     margin-bottom: 0px;
+   
     
    
    
@@ -99,6 +100,7 @@ background-size: cover;
 hr{
     width: 545px;
     margin-top: 0;
+    margin-bottom: 30px;
 }
 
 
@@ -120,6 +122,19 @@ img{
     height: 362px;
 }
 
+ p .code{
+   visibility: hidden;
+   opacity: 0;
+   transition: visibility 0s, opacity 0.5s linear;
+    
+}
+
+  p .code:hover{
+    visibility: visible;
+    opacity: 1;
+}
+
+
 
 
 .project-tile p{
@@ -135,6 +150,17 @@ img{
     background-color: #03071E;
     font-family: 'Raleway', sans-serif;
 
+}
+
+
+button{
+    margin-top: 50px;
+    padding-left: 25px ;
+    padding-right: 25px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    font-family: 'Raleway', sans-serif;
 }
 
 
