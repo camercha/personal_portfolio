@@ -28,10 +28,12 @@ ul li{
     color: white;
     font-family: 'Raleway', sans-serif;
     font-weight: 300;
+
 }
 
 li:hover{
     background-color: brown;
+    
 }
 
 
@@ -122,15 +124,15 @@ img{
     height: 362px;
 }
 
-  span{
+  .cat  .code{
    visibility: hidden;
    opacity: 0;
-   transition: visibility 0s, opacity 0.5s linear;
+   transition: visibility 1s, opacity 0.5s linear;
    color: brown;
     
 }
 
-  .cat :hover > span{
+  .cat :hover > .code{
     visibility: visible;
     opacity: 1;
 }
