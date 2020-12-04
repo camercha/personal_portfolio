@@ -103,6 +103,10 @@ img{
     width: 500px;
 }
 
+.landingpage{
+    height: 362px;
+}
+
 .project-tile p{
     margin: 0px;
     background-color: red;
