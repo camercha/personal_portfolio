@@ -116,7 +116,7 @@ hr{
 
     margin: auto;
     grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
-    border: 1px solid red;
+   
 }
 
 img{
@@ -164,6 +164,22 @@ button{
     padding-bottom: 10px;
     font-size: 20px;
     font-family: 'Raleway', sans-serif;
+    background-color: #03071E;
+    color: white;
+}
+
+
+button:hover{
+    background-color: red;
+}
+
+.arrow{
+    font-size: 25px;
+}
+
+button:hover .arrow{
+    position: relative;
+    left: 10px;
 }
 
 
