@@ -68,7 +68,7 @@ background-size: cover;
     font-size: 30px;
     font-style: italic;
     font-family: 'Raleway', sans-serif;
-    font-weight: 300;
+    
 }
 
 #spacer{
@@ -81,11 +81,15 @@ background-size: cover;
     flex-direction: column;
     text-align: center;
     background-color: #212F45;
+   
 }
 
 
 #heading h2{
+    margin-top: 50px;
     font-size: 35px ;
+    font-family: 'Raleway', sans-serif;
+    color: white;
     
    
    
@@ -120,8 +124,10 @@ img{
     position: relative;
     bottom: 10px;
     font-size: 22px;
+    font-weight: 300;
     color: white;
     background-color: #03071E;
+    font-family: 'Raleway', sans-serif;
 
 }
 
