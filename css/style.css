@@ -8,17 +8,35 @@ header{
     background-color: hsl(266, 33%, 20%);
     flex-direction: row;
    justify-content: flex-end;
+   position: fixed;
+   top: 0;
+   width: 100%;
 
 }
 
 nav{
-    width: 300px;
+    width: 400px;
 }
 
 
 ul li{
     display: inline;
-    padding-right: 25px;
+    padding: 30px;
     font-size: 22px;
     color: white;
+}
+
+li:hover{
+    background-color: brown;
+}
+
+
+
+
+
+
+
+
+#spacer{
+    height: 30px;
 }
