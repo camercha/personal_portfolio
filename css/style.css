@@ -39,16 +39,38 @@ li:hover{
 
 
 #welcome-section{
-    background-image: url('../images/welcomeback.jpg');
+    background-image: url('../images/red_black_big.jpg');
     background-repeat: no-repeat;
-    background-size: cover;
-    height: 400px;
+background-size: cover;
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+   justify-content: center;
+   
 }
 
 
+#welcome-section h1{
+    color: white;
+    font-size: 50px;
+    margin-bottom: 0;
+}
 
 
+#welcome-section p{
+    color: #065A60;
+    font-size: 30px;
+    font-style: italic;
+}
 
 #spacer{
     height: 30px;
+}
+
+
+#project-section{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
 }
