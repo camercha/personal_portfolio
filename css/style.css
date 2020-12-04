@@ -11,6 +11,8 @@ header{
    position: fixed;
    top: 0;
    width: 100%;
+   z-index: 1000;
+   padding-bottom: 7px;
 
 }
 
@@ -106,6 +108,9 @@ img{
     background-color: red;
     padding-top: 10px;
     padding-bottom: 10px ;
+    position: relative;
+    bottom: 10px;
+
 }
 
 
