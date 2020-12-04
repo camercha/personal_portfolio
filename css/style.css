@@ -37,6 +37,18 @@ li:hover{
 
 
 
+
+#welcome-section{
+    background-image: url('../images/welcomeback.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+
+
+
+
 #spacer{
     height: 30px;
 }
