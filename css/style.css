@@ -76,8 +76,13 @@ background-size: cover;
 }
 
 
-#heading{
-    font-size: 25px ;
+#heading h2{
+    font-size: 35px ;
    
-    margin-bottom: 0px;
+   
+}
+
+
+#projects{
+    display: grid;
 }
