@@ -73,6 +73,7 @@ background-size: cover;
     display: flex;
     flex-direction: column;
     text-align: center;
+    background-color: #212F45;
 }
 
 
@@ -84,7 +85,21 @@ background-size: cover;
 
 
 #projects{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-gap: 1rem;
+  
 }
+
+.project-tile{
+    display: grid;
+    grid-gap: 1rem;
+    max-width: 100%;
+   justify-items: center;
+
+    margin: auto;
+    grid-template-columns: repeat(auto-fit,minmax(500px,1fr));
+    border: 1px solid red;
+}
+
+img{
+    width: 500px;
+}
+
