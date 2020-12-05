@@ -13,6 +13,7 @@ header{
    width: 100%;
    z-index: 1000;
    padding-bottom: 7px;
+   
 
 }
 
@@ -53,6 +54,7 @@ background-size: cover;
     display: flex;
     flex-direction: column;
    justify-content: center;
+  
    
 }
 
@@ -103,6 +105,7 @@ hr{
     width: 545px;
     margin-top: 0;
     margin-bottom: 30px;
+    
 }
 
 
@@ -188,9 +191,26 @@ button:hover .arrow{
 
 
 
+
+
 @media(min-width:2000px){
 .project-tile{
    width: 75%;
 }
 
 }
+
+
+@media(min-width:325px ) and (max-width:550px){
+
+    hr{
+        width: 320px;
+    }
+
+
+    }
+ 
+
+
+
+
