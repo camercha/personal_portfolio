@@ -215,17 +215,11 @@ footer{
    
 }
 
-#bottom-links{
-    display: flex;
-    flex-direction: row;
-}
-
 
 #bottom-links li{
     padding: 0;
     padding-left: 25px;
     font-size: 25px;
-    display: inline;
     
 }
 
@@ -240,7 +234,6 @@ footer{
 
     position: relative;
     top: 10px;
-    
 
     
 
@@ -248,10 +241,6 @@ footer{
 
 #bottom-links ul{
     padding-left: 0px;
-    font-family: 'Raleway', sans-serif;
-    list-style: none;
-    
-    
 }
 
 
