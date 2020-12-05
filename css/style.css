@@ -218,7 +218,15 @@ footer{
 
 #bottom-links li{
     padding: 0;
-    padding-left: 10px;
+    padding-left: 25px;
+    font-size: 25px;
+    
+}
+
+
+#bottom-links a{
+    text-decoration: none;
+    color: white;
 }
 
 
@@ -226,6 +234,7 @@ footer{
 
     position: relative;
     top: 10px;
+
     
 
 }
