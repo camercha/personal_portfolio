@@ -3,6 +3,7 @@
 }
 
 
+
 header{
     display: flex;
     background-color: hsl(266, 33%, 20%);
@@ -54,6 +55,7 @@ background-size: cover;
     display: flex;
     flex-direction: column;
    justify-content: center;
+   width: 100%;
   
    
 }
@@ -279,7 +281,29 @@ footer{
 
 
 
+
     }
+
+
+
+    @media(min-width:300px) and (max-width:500px){
+        div #welcome-section{
+            width: 500px;
+        }
+
+        #project-section{
+            width: 500px;
+        }
+
+
+
+        footer{
+            width: 500px;
+        }
+    }
+
+
+  
  
 
 
