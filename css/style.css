@@ -38,6 +38,11 @@ ul .uppernav{
     
 }
 
+.uppernav a{
+    text-decoration: none;
+    color: white;
+}
+
 
 
 
@@ -258,7 +263,7 @@ footer{
 
 
 
-span a{
+p a{
     text-decoration: none;
     color: white;
 }
